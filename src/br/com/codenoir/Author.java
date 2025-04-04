@@ -3,12 +3,13 @@ package br.com.codenoir;
 import java.time.LocalDate;
 
 public class Author {
+    private static int idCounter = 0;
     private int id;
     private String name;
     private LocalDate birth;
 
-    public Author(int id, String name, LocalDate birth) {
-        this.id = id;
+    public Author(String name, LocalDate birth) {
+        this.id = ++idCounter;
         this.name = name;
         this.birth = birth;
     }

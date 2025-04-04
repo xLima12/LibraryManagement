@@ -3,13 +3,14 @@ package br.com.codenoir;
 import java.time.LocalDate;
 
 public class Client {
+    public static int idCounter = 0;
     private int id;
     private String name;
     private LocalDate birth;
     private String email;
 
-    public Client(int id, String name, LocalDate birth, String email) {
-        this.id = id;
+    public Client(String name, LocalDate birth, String email) {
+        this.id = ++idCounter;
         this.name = name;
         this.birth = birth;
         this.email = email;
