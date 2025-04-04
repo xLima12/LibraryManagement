@@ -5,7 +5,6 @@ import br.com.codenoir.Library;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {
@@ -19,20 +18,6 @@ public class Main {
         String authorBirth;
         String bookTitle;
         int bookId;
-
-//        Author author1 = new Author(1, "José Saramago", LocalDate.of(1922, 11, 16));
-//        Author author2 = new Author(2, "Clarice Lispector", LocalDate.of(1920, 12, 10));
-//        Author author3 = new Author(3, "Edgar Allan Poe", LocalDate.of(1809, 1, 19));
-//        Author author4 = new Author(4, "Fiódor Dostoiévski", LocalDate.of(1821, 11, 11));
-//        Author author5 = new Author(5, "William Shakespeare", LocalDate.of(1564, 4, 23));
-//        Author author6 = new Author(6, "Marcel Proust", LocalDate.of(1871, 7, 10));
-
-//        Book book1 = new Book(1, "Memorial do convento", library.getAuthor(1));
-//        Book book2 = new Book(2, "Laços de família", library.getAuthor(2));
-//        Book book3 = new Book(3, "O poço e o pêndulo", library.getAuthor(3));
-//        Book book4 = new Book(4, "Crime e Castigo", library.getAuthor(4));
-//        Book book5 = new Book(5, "Hamlet", library.getAuthor(5));
-//        Book book6 = new Book(6, "Em busca do tempo perdido", library.getAuthor(6));
 
         header();
         while (option != 0) {
